@@ -274,7 +274,7 @@ const App: React.FC = () => {
             <div className="relative">
               <div className="absolute top-4 left-4 w-full h-full border-2 border-gold -z-10"></div>
               <img
-                src="https://i.imgur.com/kswwcIw.jpeg"
+                src="https://i.imgur.com/tnEWauN.jpeg"
                 alt="Retrato da Terapeuta - Larissa Nunes"
                 className="w-full h-auto object-cover shadow-2xl"
               />
