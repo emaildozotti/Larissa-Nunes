@@ -74,27 +74,37 @@ const App: React.FC = () => {
         BLOCK 1: HERO SECTION
         Objective: Immediate Impact. Filter audience.
       */}
-      <section id="hero" className="relative min-h-screen flex items-center justify-center bg-royal overflow-hidden">
-        {/* Background Image with Overlay */}
-        <div className="absolute inset-0 z-0">
-          <img
-            src="https://picsum.photos/1920/1080?grayscale"
-            alt="Terapeuta Background"
-            className="w-full h-full object-cover opacity-30"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-royal via-royal/80 to-transparent"></div>
-        </div>
+      <section id="hero" className="relative min-h-screen flex items-center bg-royal overflow-hidden py-20">
+        <div className="container mx-auto px-6 relative z-10">
+          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+            {/* Left Column: Text Content */}
+            <div className="lg:w-3/5 text-center lg:text-left" data-aos="fade-right">
+              <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-white font-bold leading-tight mb-6 tracking-wide">
+                Pare de <span className="text-gold italic">mendigar aprovação</span> e assuma o <span className="underline decoration-gold underline-offset-8 text-gold">governo</span> da sua própria história.
+              </h1>
+              <h2 className="font-sans text-lg md:text-xl text-gray-300 mb-10 leading-relaxed font-light max-w-2xl mx-auto lg:mx-0">
+                Psicoterapia Integrativa para quem cansou de viver como órfão e decidiu ativar sua verdadeira <span className="text-white font-medium">Identidade Divina</span>. A união definitiva entre a <span className="text-gold-light">ciência da psique</span> e a <span className="text-gold-light">profundidade da fé</span>.
+              </h2>
+              <Button onClick={scrollToNextSection} className="text-lg px-10 py-5">
+                QUERO AGENDAR MINHA SESSÃO ESTRATÉGICA
+              </Button>
+            </div>
 
-        <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl" data-aos="fade-up">
-          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-white font-bold leading-tight mb-6 tracking-wide">
-            Pare de <span className="text-gold italic">mendigar aprovação</span> e assuma o <span className="underline decoration-gold underline-offset-8">governo</span> da sua própria história.
-          </h1>
-          <h2 className="font-sans text-lg md:text-xl text-gray-300 mb-10 leading-relaxed font-light max-w-2xl mx-auto">
-            Psicoterapia Integrativa para quem cansou de viver como órfão e decidiu ativar sua verdadeira <span className="text-white font-medium">Identidade Divina</span>. A união definitiva entre a <span className="text-gold-light">ciência da psique</span> e a <span className="text-gold-light">profundidade da fé</span>.
-          </h2>
-          <Button onClick={scrollToNextSection} className="text-lg px-10 py-5">
-            QUERO AGENDAR MINHA SESSÃO ESTRATÉGICA
-          </Button>
+            {/* Right Column: Expert Image */}
+            <div className="lg:w-2/5" data-aos="fade-left">
+              <div className="relative">
+                {/* Decorative Elements */}
+                <div className="absolute -inset-4 border border-gold/30 rounded-full animate-pulse-slow"></div>
+                <div className="absolute -top-10 -right-10 w-32 h-32 bg-gold/10 rounded-full blur-3xl shadow-gold/20"></div>
+
+                <img
+                  src="https://i.imgur.com/WJfQst7.jpeg"
+                  alt="Larissa Nunes - Psicoterapeuta Integrativa"
+                  className="relative z-10 w-full h-auto object-cover rounded-2xl shadow-2xl border-b-4 border-gold"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

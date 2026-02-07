@@ -1,72 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>O Despertar do Governo</title>
-    <meta name="description" content="Psicoterapia Integrativa para quem decidiu ativar sua verdadeira Identidade Divina." />
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts: Playfair Display (Serif) & Montserrat (Sans) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
-    <!-- AOS Animation Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>O Despertar do Governo</title>
+  <meta name="description"
+    content="Psicoterapia Integrativa para quem decidiu ativar sua verdadeira Identidade Divina." />
 
-    <!-- Tailwind Config for Custom Colors/Fonts -->
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              royal: '#0B1E3B', /* Deep Royal Blue */
-              gold: '#C5A059', /* Muted Gold */
-              'gold-light': '#E5C575',
-              offwhite: '#F9FAFB',
-              darkgrey: '#333333',
-            },
-            fontFamily: {
-              serif: ['"Playfair Display"', 'serif'],
-              sans: ['"Montserrat"', 'sans-serif'],
-            }
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Playfair Display (Serif) & Montserrat (Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Tailwind Config for Custom Colors/Fonts -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            royal: '#0B1E3B', /* Deep Royal Blue */
+            gold: '#C5A059', /* Muted Gold */
+            'gold-light': '#E5C575',
+            offwhite: '#F9FAFB',
+            darkgrey: '#333333',
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['"Montserrat"', 'sans-serif'],
           }
         }
       }
-    </script>
-    <style>
-      /* Smooth Scrolling */
-      html {
-        scroll-behavior: smooth;
+    }
+  </script>
+  <style>
+    /* Smooth Scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #C5A059;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0B1E3B;
+    }
+
+    /* Wistia Player Styles */
+    wistia-player[media-id='kzrkn5yyrn']:not(:defined) {
+      background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/kzrkn5yyrn/swatch');
+      display: block;
+      filter: blur(5px);
+      padding-top: 133.33%;
+    }
+
+    /* Animations */
+    @keyframes pulse-slow {
+
+      0%,
+      100% {
+        transform: scale(1);
+        opacity: 0.3;
       }
-      /* Custom Scrollbar */
-      ::-webkit-scrollbar {
-        width: 8px;
+
+      50% {
+        transform: scale(1.05);
+        opacity: 0.5;
       }
-      ::-webkit-scrollbar-track {
-        background: #f1f1f1; 
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #C5A059; 
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #0B1E3B; 
-      }
-      
-      /* Wistia Player Styles */
-      wistia-player[media-id='kzrkn5yyrn']:not(:defined) { 
-        background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/kzrkn5yyrn/swatch'); 
-        display: block; 
-        filter: blur(5px); 
-        padding-top:133.33%; 
-      }
-    </style>
-    <script src="https://fast.wistia.com/player.js" async></script>
-    <script src="https://fast.wistia.com/embed/kzrkn5yyrn.js" async type="module"></script>
+    }
+
+    .animate-pulse-slow {
+      animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+  </style>
+  <script src="https://fast.wistia.com/player.js" async></script>
+  <script src="https://fast.wistia.com/embed/kzrkn5yyrn.js" async type="module"></script>
   <script type="importmap">
 {
   "imports": {
@@ -77,10 +104,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-offwhite text-darkgrey font-sans antialiased">
-    <div id="root"></div>
+
+<body class="bg-offwhite text-darkgrey font-sans antialiased">
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
