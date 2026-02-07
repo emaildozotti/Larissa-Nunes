@@ -87,10 +87,10 @@ const App: React.FC = () => {
 
         <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl" data-aos="fade-up">
           <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-white font-bold leading-tight mb-6 tracking-wide">
-            Pare de mendigar aprovação e assuma o governo da sua própria história.
+            Pare de <span className="text-gold italic">mendigar aprovação</span> e assuma o <span className="underline decoration-gold underline-offset-8">governo</span> da sua própria história.
           </h1>
           <h2 className="font-sans text-lg md:text-xl text-gray-300 mb-10 leading-relaxed font-light max-w-2xl mx-auto">
-            Psicoterapia Integrativa para quem cansou de viver como órfão e decidiu ativar sua verdadeira Identidade Divina. A união definitiva entre a ciência da psique e a profundidade da fé.
+            Psicoterapia Integrativa para quem cansou de viver como órfão e decidiu ativar sua verdadeira <span className="text-white font-medium">Identidade Divina</span>. A união definitiva entre a <span className="text-gold-light">ciência da psique</span> e a <span className="text-gold-light">profundidade da fé</span>.
           </h2>
           <Button onClick={scrollToNextSection} className="text-lg px-10 py-5">
             QUERO AGENDAR MINHA SESSÃO ESTRATÉGICA
@@ -105,10 +105,10 @@ const App: React.FC = () => {
       <Section className="bg-white">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-royal mb-6">
-            Você sente que tem um leão adormecido dentro de você?
+            Você sente que tem um <span className="text-gold">leão adormecido</span> dentro de você?
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Você conquistou, lutou, mas quando coloca a cabeça no travesseiro, sente um vazio que nenhum sucesso preenche. <br />
+            Você conquistou, lutou, mas quando coloca a cabeça no travesseiro, sente um <span className="font-bold text-royal italic">vazio</span> que nenhum sucesso preenche. <br />
             Talvez você esteja vivendo um destes cenários hoje:
           </p>
         </div>
@@ -150,8 +150,8 @@ const App: React.FC = () => {
         </div>
 
         <div className="mt-16 text-center" data-aos="fade-up">
-          <p className="font-serif text-xl md:text-2xl italic text-royal">
-            "Essa dor não é o fim. É o sinal de que você está vivendo abaixo da sua identidade. O sono da negligência emocional está te custando caro demais."
+          <p className="font-serif text-xl md:text-2xl italic text-royal max-w-3xl mx-auto">
+            "Essa dor não é o fim. É o sinal de que você está vivendo <span className="bg-gold/10 px-2 py-1 rounded">abaixo da sua identidade</span>. O sono da negligência emocional está te custando caro demais."
           </p>
         </div>
       </Section>
@@ -186,27 +186,27 @@ const App: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div data-aos="fade-right">
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-royal mb-6">
-              Onde a Técnica encontra a Transcendência.
+              Onde a <span className="text-gold italic">Técnica</span> encontra a <span className="text-gold italic">Transcendência</span>.
             </h2>
             <div className="w-20 h-1 bg-gold mb-8"></div>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Esqueça a ideia de que você precisa escolher entre sua saúde mental e sua vida espiritual.
-              Meu método de trabalho é fundamentado em um alicerce duplo:
+              Meu método de trabalho é fundamentado em um <span className="font-bold text-royal underline decoration-gold/50">alicerce duplo</span>:
             </p>
 
             <div className="space-y-8">
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-royal text-gold flex items-center justify-center font-bold font-serif text-xl">1</div>
                 <div>
-                  <h3 className="font-serif text-xl font-bold text-royal mb-2">A Ciência da Psique (Técnica)</h3>
-                  <p className="text-gray-600">Ferramentas clínicas para tratar traumas, ressignificar o luto e quebrar ciclos de comportamento destrutivo. Não é "conversa fiada", é neurociência e psicologia aplicada.</p>
+                  <h3 className="font-serif text-xl font-bold text-royal mb-2">A Ciência da Psique <span className="text-gray-400 font-normal text-base">(Técnica)</span></h3>
+                  <p className="text-gray-600">Ferramentas clínicas para tratar traumas, <span className="font-medium text-royal">ressignificar o luto</span> e quebrar ciclos de comportamento destrutivo. Não é "conversa fiada", é <span className="text-gold font-bold">neurociência</span> e psicologia aplicada.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gold text-white flex items-center justify-center font-bold font-serif text-xl">2</div>
                 <div>
-                  <h3 className="font-serif text-xl font-bold text-royal mb-2">A Identidade Divina (Fundamento)</h3>
-                  <p className="text-gray-600">A cura real só acontece quando você descobre quem é. Não trato apenas os sintomas; vamos à raiz espiritual e emocional da sua identidade como Imagem e Semelhança.</p>
+                  <h3 className="font-serif text-xl font-bold text-royal mb-2">A Identidade Divina <span className="text-gray-400 font-normal text-base">(Fundamento)</span></h3>
+                  <p className="text-gray-600">A cura real só acontece quando você descobre quem é. Não trato apenas os sintomas; vamos à <span className="font-bold text-royal italic">raiz espiritual</span> e emocional da sua identidade como Imagem e Semelhança.</p>
                 </div>
               </div>
             </div>
@@ -240,16 +240,16 @@ const App: React.FC = () => {
         <div className="flex flex-col-reverse lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2 space-y-6" data-aos="fade-up">
             <h2 className="font-serif text-3xl md:text-4xl font-bold leading-tight">
-              Minha autoridade não vem apenas dos livros. Vem do deserto.
+              Minha autoridade não vem apenas dos livros. <br /> Vem do <span className="text-gold italic">deserto</span>.
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed">
-              Muito prazer, eu sou Larissa Nunes.
+              Muito prazer, eu sou <span className="text-white font-bold border-b border-gold">Larissa Nunes</span>.
             </p>
-            <p className="text-gray-300 leading-relaxed">
-              Antes de ser a estrategista emocional que guia centenas de pessoas, eu precisei atravessar o meu próprio vale. Eu conheço o gosto amargo da rejeição e a dor do abandono paterno. Eu sei o que é ter que forjar a própria força quando o chão desaparece.
+            <p className="text-gray-300 leading-relaxed font-light">
+              Antes de ser a <span className="text-white">estrategista emocional</span> que guia centenas de pessoas, eu precisei atravessar o meu próprio vale. Eu conheço o gosto amargo da rejeição e a dor do abandono paterno. Eu sei o que é ter que <span className="font-bold text-white">forjar a própria força</span> quando o chão desaparece.
             </p>
-            <p className="text-gray-300 leading-relaxed">
-              Transformei o luto da figura paterna terrena na descoberta inabalável da Paternidade Divina. Esse processo gerou em mim a "musculatura emocional" necessária para sustentar a sua dor sem ser engolida por ela.
+            <p className="text-gray-300 leading-relaxed font-light">
+              Transformei o luto da figura paterna terrena na descoberta inabalável da <span className="text-white">Paternidade Divina</span>. Esse processo gerou em mim a <span className="text-gold italic">"musculatura emocional"</span> necessária para sustentar a sua dor sem ser engolida por ela.
             </p>
             <p className="text-gold text-xl font-serif italic">
               "Hoje, minha missão é clara: Sou o farol para quem decidiu sair da escuridão da orfandade. Não aceito que você viva menos do que nasceu para governar."
@@ -310,7 +310,7 @@ const App: React.FC = () => {
               Diferencial
             </div>
             <p className="font-serif text-2xl md:text-3xl italic leading-relaxed">
-              "Se você não desistir de você, eu não desisto de nós. Meu pacto é caminhar com você até que você aprenda a andar sozinho."
+              "Se você não desistir de você, <span className="text-gold font-bold">eu não desisto de nós</span>. Meu pacto é caminhar com você até que você aprenda a andar sozinho."
             </p>
           </div>
         </div>
