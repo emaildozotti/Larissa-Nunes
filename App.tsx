@@ -327,16 +327,16 @@ const App: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { text: "Eu achava que terapia era sinal de fraqueza na fé. Com a Larissa, entendi que tratar minhas emoções foi o ato mais espiritual que já fiz. Hoje governo minha casa e minha empresa.", author: "Mariana S." },
-            { text: "Cheguei destruída pela rejeição do meu pai. Saí do processo sabendo exatamente quem sou. A firmeza da Larissa foi o que me salvou do vitimismo.", author: "Carlos E." },
-            { text: "Não é uma terapia onde você só fala e ninguém responde. Ela te sacode. Era exatamente o que eu precisava para parar de procrastinar.", author: "Fernanda L." }
-          ].map((t, idx) => (
-            <div key={idx} className="bg-white p-8 shadow-md border-t-4 border-gold" data-aos="fade-up" data-aos-delay={idx * 100}>
-              <div className="flex text-gold mb-4">
-                {[...Array(5)].map((_, i) => <Star key={i} size={16} fill="currentColor" />)}
-              </div>
-              <p className="text-gray-600 mb-6 italic">"{t.text}"</p>
-              <p className="font-bold text-royal font-serif">— {t.author}</p>
+            "https://i.imgur.com/FD6z7SK.jpeg",
+            "https://i.imgur.com/Pu6d4sJ.jpeg",
+            "https://i.imgur.com/zLtIsBA.jpeg"
+          ].map((src, idx) => (
+            <div key={idx} className="bg-white p-2 shadow-xl rounded-lg border border-gray-100" data-aos="fade-up" data-aos-delay={idx * 100}>
+              <img
+                src={src}
+                alt={`Depoimento ${idx + 1}`}
+                className="w-full h-auto rounded shadow-sm hover:scale-[1.02] transition-transform duration-300"
+              />
             </div>
           ))}
         </div>
