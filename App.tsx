@@ -243,7 +243,7 @@ const App: React.FC = () => {
               Minha autoridade não vem apenas dos livros. Vem do deserto.
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed">
-              Muito prazer, eu sou [Nome da Terapeuta].
+              Muito prazer, eu sou Larissa Nunes.
             </p>
             <p className="text-gray-300 leading-relaxed">
               Antes de ser a estrategista emocional que guia centenas de pessoas, eu precisei atravessar o meu próprio vale. Eu conheço o gosto amargo da rejeição e a dor do abandono paterno. Eu sei o que é ter que forjar a própria força quando o chão desaparece.
@@ -264,8 +264,8 @@ const App: React.FC = () => {
             <div className="relative">
               <div className="absolute top-4 left-4 w-full h-full border-2 border-gold -z-10"></div>
               <img
-                src="https://picsum.photos/600/750?grayscale"
-                alt="Retrato da Terapeuta"
+                src="https://i.imgur.com/kswwcIw.jpeg"
+                alt="Retrato da Terapeuta - Larissa Nunes"
                 className="w-full h-auto object-cover shadow-2xl"
               />
             </div>
@@ -327,8 +327,8 @@ const App: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { text: "Eu achava que terapia era sinal de fraqueza na fé. Com a [Nome], entendi que tratar minhas emoções foi o ato mais espiritual que já fiz. Hoje governo minha casa e minha empresa.", author: "Mariana S." },
-            { text: "Cheguei destruída pela rejeição do meu pai. Saí do processo sabendo exatamente quem sou. A firmeza da [Nome] foi o que me salvou do vitimismo.", author: "Carlos E." },
+            { text: "Eu achava que terapia era sinal de fraqueza na fé. Com a Larissa, entendi que tratar minhas emoções foi o ato mais espiritual que já fiz. Hoje governo minha casa e minha empresa.", author: "Mariana S." },
+            { text: "Cheguei destruída pela rejeição do meu pai. Saí do processo sabendo exatamente quem sou. A firmeza da Larissa foi o que me salvou do vitimismo.", author: "Carlos E." },
             { text: "Não é uma terapia onde você só fala e ninguém responde. Ela te sacode. Era exatamente o que eu precisava para parar de procrastinar.", author: "Fernanda L." }
           ].map((t, idx) => (
             <div key={idx} className="bg-white p-8 shadow-md border-t-4 border-gold" data-aos="fade-up" data-aos-delay={idx * 100}>
@@ -391,7 +391,7 @@ const App: React.FC = () => {
           </Button>
 
           <div className="mt-20 pt-8 border-t border-white/10 text-sm text-gray-500 font-sans">
-            <p>© 2024 [Nome da Terapeuta] - Todos os direitos reservados. Governo & Identidade.</p>
+            <p>© 2024 Larissa Nunes - Todos os direitos reservados. Governo & Identidade.</p>
           </div>
         </div>
       </footer>
