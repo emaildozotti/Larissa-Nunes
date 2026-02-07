@@ -401,7 +401,7 @@ const App: React.FC = () => {
           </Button>
 
           <div className="mt-20 pt-8 border-t border-white/10 text-sm text-gray-500 font-sans">
-            <p>© 2024 Larissa Nunes - Todos os direitos reservados. Governo & Identidade.</p>
+            <p>© 2026 Larissa Nunes - Todos os direitos reservados. Governo & Identidade.</p>
           </div>
         </div>
       </footer>
